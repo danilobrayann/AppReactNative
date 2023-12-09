@@ -1,9 +1,14 @@
-import Home from "./page/home";
+import { Container, Texto, Subtite  } from "./styles";
+
 
 
 export default function App() {
   return (
-    <Home /> 
+    <Container >
+      <Texto>Danilo souza santos</Texto>
+    <Subtite>como está você ?</Subtite>
+      
+    </Container>
   );
 }
 
